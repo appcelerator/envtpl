@@ -6,7 +6,7 @@
 # build a binary for Alpine Linux.
 #
 
-IMAGE=$([ "$1" == "alpine" ] && echo "golang:alpine" || echo "golang")
+IMAGE=$([ "$1" == "alpine" ] && echo "golang:1.10-alpine" || echo "golang:1.10")
 SRCDIR=/go/src/github.com/subfuzion/envtpl
 LDFLAGS="-s -w"
 

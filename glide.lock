@@ -1,10 +1,12 @@
-hash: 6559df74183e672c15c42a444b014a9c7ac3978f4f649cb2a73576d49ce82462
-updated: 2017-12-01T17:05:30.482315-08:00
+hash: fa3c162fc21b66a52e76ba829af2a05ba61c7d21f2070fabff938f890a94eb48
+updated: 2018-08-14T13:50:54.222976-07:00
 imports:
 - name: github.com/aokoli/goutils
-  version: 3391d3790d23d03408670993e957e8f408993c34
+  version: 9c37978a95bd5c709a15883b6242714ea6709e64
+- name: github.com/google/uuid
+  version: 064e2069ce9c359c118179501254f67d7d37ba24
 - name: github.com/huandu/xstrings
-  version: d6590c0c31d16526217fa60fbd2067f7afcd78c5
+  version: 3959339b333561bf62a38b424fd41517c2c90f40
 - name: github.com/imdario/mergo
   version: 7fe0c75c13abdee74b09fcacef5ea1c6bba6a874
 - name: github.com/inconshreveable/mousetrap
@@ -12,15 +14,13 @@ imports:
 - name: github.com/Masterminds/semver
   version: 59c29afe1a994eacb71c833025ca7acf874bb1da
 - name: github.com/Masterminds/sprig
-  version: b217b9c388de2cacde4354c536e520c52c055563
-- name: github.com/satori/go.uuid
-  version: 879c5887cd475cd7864858769793b2ceb0d44feb
+  version: 6b2a58267f6a8b1dc8e2eb5519b984008fa85e8c
 - name: github.com/spf13/cobra
-  version: 35136c09d8da66b901337c6e86fd8e88a1a255bd
+  version: ef82de70bb3f60c65fb8eebacbb2d122ef517385
 - name: github.com/spf13/pflag
-  version: 9ff6c6923cfffbcd502984b8e0c80539a94968b7
+  version: 9a97c102cda95a86cec2345a6f09f55a939babf5
 - name: golang.org/x/crypto
-  version: 1351f936d976c60a0a48d728281922cf63eafb8d
+  version: 81e90905daefcd6fd217b62423c0908922eadb30
   subpackages:
   - pbkdf2
   - scrypt
