@@ -1,0 +1,8 @@
+package: github.com/subfuzion/envtpl
+import:
+- package: github.com/Masterminds/sprig
+  version: ^2.15.0
+- package: github.com/spf13/cobra
+  version: ^0.0.3
+- package: github.com/spf13/pflag
+  version: ^1.0.2
